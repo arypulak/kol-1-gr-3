@@ -27,6 +27,14 @@ class DefaultController extends Controller
     }
 
     /* B */
+    
+    /**
+     * @Route("/baby.html", name="baby")
+     */
+    public function babyAction()
+    {
+        return $this->render('default/baby.html.twig');
+    }
 
     /* C */
 
