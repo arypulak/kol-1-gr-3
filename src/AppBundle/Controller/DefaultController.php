@@ -28,6 +28,15 @@ class DefaultController extends Controller
 
     /* B */
 
+    /**
+    * @Route("/best.html", name="best")
+    */
+    public function bestAction()
+    {
+        return $this->render('default/best.html.twig');
+    }
+
+        
     /* C */
 
     /* D */
